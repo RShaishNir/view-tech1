@@ -1,0 +1,197 @@
+const services = {
+
+  security: {
+    icon: "🔐",
+    title: { 
+      en: "Security & Safety", 
+      he: "אבטחה ובטיחות", 
+      fr: "Sécurité & Sûreté" 
+    },
+
+    challenges: {
+      en: `Nationality crime, theft, vandalism, unauthorized access, safety risks and more.`,
+      he: `פשיעה לאומנית, גניבות, ונדליזם, גישה בלתי מורשית, סיכוני בטיחות ועוד.`,
+      fr: `Criminalité à caractère national, vols, vandalisme, accès non autorisé, risques de sécurité et plus encore.`
+    },
+
+    solution: {
+      en: `Live & proactive human-led monitoring combined with AI analytics to detect anomalies, enforce access rules, and prevent escalation. We use small, dedicated, professional teams that provide individual attention and full operational flexibility.`,
+      he: `ניטור חי ופרואקטיבי בהובלת כוח אדם בשילוב אנליטיקה מבוססת בינה מלאכותית לאיתור חריגות, אכיפת נהלי גישה ומניעת הסלמה. אנו מפעילים צוותים קטנים, ייעודיים ומקצועיים המעניקים תשומת לב אישית וגמישות תפעולית מלאה.`,
+      fr: `Surveillance proactive en direct dirigée par des humains combinée à l’analytique IA pour détecter les anomalies, appliquer les règles d’accès et prévenir les escalades. Nous utilisons de petites équipes dédiées et professionnelles offrant une attention individuelle et une flexibilité opérationnelle complète.`
+    },
+
+    benefits: {
+      en: `• Reduce dependency on physical security forces and significantly lower costs.
+• "Eyes on the ground" at all times with immediate insight into unusual events.
+• Prevent incidents in real time by using existing cameras proactively.
+• Integrate advanced AI for custom alerts suited to your risks.`,
+
+      he: `• הפחתת התלות בכוחות אבטחה פיזיים וחיסכון משמעותי בעלויות.
+• "עיניים על הקרקע" בכל עת עם תובנות מיידיות לאירועים חריגים.
+• מניעת אירועים בזמן אמת באמצעות שימוש יזום במצלמות קיימות.
+• שילוב יכולות בינה מלאכותית מתקדמות להתראות מותאמות אישית.`,
+
+      fr: `• Réduire la dépendance aux forces de sécurité physiques et diminuer considérablement les coûts.
+• "Yeux sur le terrain" en permanence avec des informations immédiates sur les événements inhabituels.
+• Prévenir les incidents en temps réel grâce à l’utilisation proactive des caméras existantes.
+• Intégrer une IA avancée pour des alertes personnalisées adaptées à vos risques.`
+    }
+  },
+
+
+  quality: {
+    icon: "✅",
+    title: { 
+      en: "Quality Assurance", 
+      he: "בקרת איכות", 
+      fr: "Assurance qualité" 
+    },
+
+    challenges: {
+      en: `Operational inconsistencies, overlooked errors, lack of accountability, and gaps in compliance with safety and service standards.`,
+      he: `חוסר אחידות תפעולית, טעויות שלא זוהו, היעדר אחריות ופערים בעמידה בסטנדרטים של בטיחות ושירות.`,
+      fr: `Incohérences opérationnelles, erreurs négligées, manque de responsabilité et lacunes dans le respect des normes de sécurité et de service.`
+    },
+
+    solution: {
+      en: `Dedicated monitoring and review of day-to-day activities ensure that processes align with defined procedures. Observers document deviations, guide staff in real time, and provide management with structured insights. Through ongoing mentoring and performance analysis, we help organizations maintain high standards across every shift.`,
+      he: `ניטור ייעודי ובקרה של פעילויות יומיומיות מבטיחים שהתהליכים מתבצעים לפי הנהלים. צוותי התצפית מתעדים חריגות, מנחים את הצוות בזמן אמת ומספקים להנהלה תובנות ממוסדות. באמצעות ליווי שוטף וניתוח ביצועים אנו מסייעים לארגונים לשמור על סטנדרטים גבוהים בכל משמרת.`,
+      fr: `Une surveillance et un examen dédiés des activités quotidiennes garantissent que les processus respectent les procédures définies. Les observateurs documentent les écarts, guident le personnel en temps réel et fournissent à la direction des analyses structurées. Grâce à un mentorat continu et à l’analyse des performances, nous aidons les organisations à maintenir des normes élevées à chaque quart.`
+    },
+
+    benefits: {
+      en: `• Cost avoidance — early identification and correction of errors before they escalate.
+• Strengthened compliance with internal and external standards.
+• Continuous feedback loop that improves efficiency and accountability.
+• Higher service quality and reduced rework or operational failures.`,
+
+      he: `• מניעת עלויות מיותרות — זיהוי ותיקון מוקדם של טעויות לפני הסלמה.
+• חיזוק העמידה בסטנדרטים פנימיים וחיצוניים.
+• משוב מתמשך המשפר את היעילות והאחריות.
+• שיפור איכות השירות וצמצום טעויות או כשלים תפעוליים.`,
+
+      fr: `• Éviter les coûts — identification et correction précoces des erreurs avant leur aggravation.
+• Conformité renforcée aux normes internes et externes.
+• Boucle de rétroaction continue qui améliore l’efficacité et la responsabilité.
+• Meilleure qualité de service et réduction des erreurs ou échecs opérationnels.`
+    }
+  },
+
+
+  lobby: {
+    icon: "🔔",
+    title: { 
+      en: "Remote Lobby Services", 
+      he: "שירותי לובי מרוחקים", 
+      fr: "Services de lobby à distance" 
+    },
+
+    challenges: {
+      en: `Unmanned entrances, uncontrolled visitor access, delivery management, and unauthorized entry attempts.`,
+      he: `כניסות לא מאוישות, גישה בלתי מבוקרת של מבקרים, ניהול משלוחים וניסיונות חדירה לא מורשים.`,
+      fr: `Entrées non surveillées, accès incontrôlé des visiteurs, gestion des livraisons et tentatives d’intrusion non autorisées.`
+    },
+
+    solution: {
+      en: `Centralized remote operators verify identities, manage visitor flows, log deliveries, and guide guests via live video and intercom — delivering consistent access control without on-site staffing at every entrance.`,
+      he: `מוקדנים מרוחקים מרכזיים מאמתים זהויות, מנהלים זרימת מבקרים, מתעדים משלוחים ומנחים אורחים באמצעות וידאו חי ואינטרקום — מספקים בקרת גישה אחידה ללא צורך בצוות בכל כניסה.`,
+      fr: `Des opérateurs distants centralisés vérifient les identités, gèrent les flux de visiteurs, enregistrent les livraisons et guident les invités via vidéo en direct et interphone — assurant un contrôle d’accès cohérent sans personnel sur site à chaque entrée.`
+    },
+
+    benefits: {
+      en: `• Lower staffing costs without compromising safety.
+• Consistent, professional visitor experience.
+• Enhanced security with verified entry and auditable logs.
+• Scales across multiple properties from one hub.`,
+
+      he: `• עלויות כוח אדם נמוכות יותר מבלי לפגוע בבטיחות.
+• חוויית מבקרים אחידה ומקצועית.
+• אבטחה משופרת עם אימות כניסות ולוגים מבוקרים.
+• יכולת התרחבות לניהול מספר נכסים ממוקד אחד.`,
+
+      fr: `• Réduction des coûts de personnel sans compromettre la sécurité.
+• Expérience visiteur cohérente et professionnelle.
+• Sécurité renforcée avec des entrées vérifiées et des journaux auditables.
+• Extension possible sur plusieurs propriétés à partir d’un seul hub.`
+    }
+  },
+
+
+  process: {
+    icon: "🔄",
+    title: { 
+      en: "Process Control", 
+      he: "בקרת תהליכים", 
+      fr: "Contrôle des processus" 
+    },
+
+    challenges: {
+      en: `Critical processes breaking down due to lack of oversight, unsafe practices, or late detection of deviations.`,
+      he: `קריסת תהליכים קריטיים עקב חוסר פיקוח, נהלים לא בטוחים או זיהוי מאוחר של חריגות.`,
+      fr: `Défaillance de processus critiques en raison d’un manque de supervision, de pratiques dangereuses ou de détection tardive des écarts.`
+    },
+
+    solution: {
+      en: `Monitoring teams continuously observe operations to ensure compliance with SOPs. Using smart alerts and structured reporting, we escalate issues in real time while coaching teams to maintain discipline. This proactive oversight reduces downtime, increases safety, and ensures continuity.`,
+      he: `צוותי ניטור צופים באופן רציף בפעילות כדי להבטיח עמידה בנוהלי עבודה. בעזרת התראות חכמות ודיווח מובנה אנו מסלימים נושאים בזמן אמת ומלווים את הצוותים לשמירה על משמעת. פיקוח פרואקטיבי זה מצמצם זמני השבתה, מעלה בטיחות ומבטיח רציפות.`,
+      fr: `Les équipes de surveillance observent en continu les opérations pour assurer la conformité aux procédures. Avec des alertes intelligentes et des rapports structurés, nous faisons remonter les problèmes en temps réel tout en accompagnant les équipes dans le maintien de la discipline. Cette supervision proactive réduit les temps d’arrêt, accroît la sécurité et garantit la continuité.`
+    },
+
+    benefits: {
+      en: `• Immediate detection of unsafe or incorrect practices.
+• Reduced operational risks and improved workplace safety.
+• Increased accountability via real-time reporting.
+• Protection of project timelines and prevention of delays.`,
+
+      he: `• זיהוי מיידי של נהלים לא בטוחים או שגויים.
+• הפחתת סיכונים תפעוליים ושיפור בטיחות במקום העבודה.
+• הגברת האחריות באמצעות דיווח בזמן אמת.
+• הגנה על לוחות זמנים של פרויקטים ומניעת עיכובים.`,
+
+      fr: `• Détection immédiate des pratiques dangereuses ou incorrectes.
+• Réduction des risques opérationnels et amélioration de la sécurité au travail.
+• Responsabilité accrue grâce au reporting en temps réel.
+• Protection des calendriers de projet et prévention des retards.`
+    }
+  },
+
+
+  safeaway: {
+    icon: "🧭",
+    title: { 
+      en: "SafeAway", 
+      he: "SafeAway", 
+      fr: "SafeAway" 
+    },
+
+    challenges: {
+      en: `If you are going on vacation, attending an event, or any other absence, you are concerned about leaving the house or business unattended.`,
+      he: `אם אתם יוצאים לחופשה, משתתפים באירוע או נעדרים מסיבה אחרת, עולה חשש להשאיר את הבית או העסק ללא השגחה.`,
+      fr: `Si vous partez en vacances, assistez à un événement ou êtes absent pour toute autre raison, vous craignez de laisser votre maison ou votre entreprise sans surveillance.`
+    },
+
+    solution: {
+      en: `After a short registration process, we connect to your cameras and monitor your home or business according to your needs. If there is anything unusual, we will inform you. The service can be provided by the hour or by the day, and can be adjusted throughout the entire period of absence.`,
+      he: `לאחר תהליך רישום קצר אנו מתחברים למצלמות שלכם ומנטרים את הבית או העסק לפי הצורך. אם מתגלה משהו חריג נעדכן אתכם. השירות ניתן לפי שעה או לפי יום, וניתן להתאמה לאורך כל תקופת ההיעדרות.`,
+      fr: `Après un court processus d’inscription, nous nous connectons à vos caméras et surveillons votre maison ou entreprise selon vos besoins. En cas d’anomalie, nous vous informons. Le service peut être fourni à l’heure ou à la journée et ajusté pendant toute la période d’absence.`
+    },
+
+    benefits: {
+      en: `• Protect your assets in a real and high-quality manner.
+• Peace of mind — not just analytics alerts, but physical inspection and scanning of your property.
+• Immediate escalation in case of emergencies or suspicious activity.
+• Flexible coverage — continue or stop monitoring anytime.`,
+
+      he: `• הגנה אמיתית ואיכותית על הנכסים שלכם.
+• שקט נפשי — לא רק התראות אנליטיות אלא גם בדיקה פיזית וסריקה של הנכס.
+• הסלמה מיידית במקרה חירום או פעילות חשודה.
+• כיסוי גמיש — ניתן להמשיך או להפסיק את השירות בכל עת.`,
+
+      fr: `• Protégez vos biens de manière réelle et de haute qualité.
+• Sérénité — pas seulement des alertes analytiques mais aussi une inspection et un contrôle physique de votre propriété.
+• Escalade immédiate en cas d’urgence ou d’activité suspecte.
+• Couverture flexible — poursuivre ou arrêter la surveillance à tout moment.`
+    }
+  }
+
+};
